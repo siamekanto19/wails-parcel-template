@@ -3,8 +3,6 @@ package main
 import (
 	"context"
 	"fmt"
-
-	"github.com/wailsapp/wails/v2/pkg/runtime"
 )
 
 // App struct
@@ -25,16 +23,17 @@ func (a *App) startup(ctx context.Context) {
 
 // domReady is called after front-end resources have been loaded
 func (a App) domReady(ctx context.Context) {
-	go func() {
-		for {
-			select {
-			case <-ctx.Done():
-				return
-			default:
-				runtime.EventsEmit(ctx, "myevent", NewDummyEvent())
-			}
-		}
-	}()
+	// go func() {
+	// 	for {
+	// 		select {
+	// 		case <-ctx.Done():
+	// 			return
+	// 		default:
+	// 			runtime.EventsEmit(ctx, "myevent", NewDummyEvent())
+	// 		}
+	// 		time.Sleep(500 * time.Millisecond)
+	// 	}
+	// }()
 }
 
 // beforeClose is called when the application is about to quit,

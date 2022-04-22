@@ -24976,13 +24976,19 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 function App() {
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-        style: {
-            color: "black",
-            fontSize: "2rem",
-            marginTop: "2rem"
-        },
-        children: "Parcel"
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_react.Fragment, {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            style: {
+                color: "black",
+                fontSize: "2rem",
+                marginTop: "2rem"
+            },
+            children: "Wails with Parcel React"
+        }, void 0, false, {
+            fileName: "src/App.tsx",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
     }, void 0, false, {
         fileName: "src/App.tsx",
         lineNumber: 5,
