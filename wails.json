@@ -1,0 +1,33 @@
+{
+  "name": "percel-wails",
+  "assetdir": "frontend/dist",
+  "reloaddirs": "frontend",
+  "frontend:build": "npm run build",
+  "frontend:install": "npm install",
+  "frontend:dev": "",
+  "frontend:dev:watcher": "npm run dev",
+  "wailsjsdir": "./frontend",
+  "version": "2",
+  "Path": "",
+  "BuildDir": "",
+  "outputfilename": "percel-wails",
+  "OutputType": "",
+  "Platform": "",
+  "runNonNativeBuildHooks": false,
+  "postBuildHooks": null,
+  "Author": {
+    "name": "Siam",
+    "email": "siam@evatix.com"
+  },
+  "Info": {
+    "companyName": "percel-wails",
+    "productName": "percel-wails",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright.........",
+    "comments": "Built using Wails (https://wails.app)"
+  },
+  "debounceMS": 100,
+  "devserverurl": "http://localhost:34115",
+  "appargs": "",
+  "nsisType": ""
+}
